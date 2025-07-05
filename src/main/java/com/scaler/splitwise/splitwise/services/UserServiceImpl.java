@@ -42,4 +42,10 @@ public class UserServiceImpl implements UserService{
         return userRepository.save(user);
 
     }
+
+    @Override
+    public String updatePassword(String password) {
+
+        return null;
+    }
 }

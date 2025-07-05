@@ -33,4 +33,9 @@ public class UserController {
 
         return registerUserResponseDto;
     }
+
+    public void updateProfile(String password){
+
+
+    }
 }
